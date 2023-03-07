@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .hero-section {
   background: #f0fff0;
 }
-.navbar-light .navbar-brand {
+
+.navbar-brand {
   color: rgba(0, 0, 0, 0.9);
   margin-right: 20%;
+  /* background: #f0fff0; */
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -19,8 +26,35 @@
   color: #3804f3;
   font-weight: 900;
 }
+.SignIn-item {
+  /* padding: 10px 20px; */
+}
+
+.SignIn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #21b573;
+  border-radius: 33px;
+  padding: 10px 20px;
+  margin-top: -10px;
+}
+.SignIn a {
+  margin-top: 0px;
+  color: #fff !important;
+}
+
+.hero-section .container {
+  padding-bottom: 50px;
+}
 
 /* hero-content  */
+.hero-content {
+  margin-top: 75px;
+}
 .hero-content h5 {
   font-family: "Poppins";
   font-style: normal;
@@ -31,4 +65,148 @@
 }
 
 .hero-content h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+  color: #000000;
+}
+.hero-content h1 span {
+  color: #21b472;
+}
+.hero-content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  /* or 225% */
+
+  color: black;
+  margin: 30px 0px;
+}
+.hero-content a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #21b573;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+/* showUP section  */
+.showUp .container .row {
+  justify-content: space-between;
+}
+.showUp .container .row .col {
+  padding: 50px;
+  background: #f8fffb;
+  border-radius: 10px;
+  width: 255px;
+  margin: 10px;
+}
+
+/* online couser seciton  */
+
+.course-section .container h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.card {
+  padding: 25px 15px 0 015px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.card-body h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  /* margin-top: 10px; */
+}
+.card-body p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+.card-body button {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #21b573;
+  border-radius: 33px;
+  padding: 10px 20px;
+  width: 135px;
+  outline: none;
+  border: none;
+}
+.start img {
+  margin-right: 10px;
+}
+p {
+  margin-bottom: 0;
+}
+.seats img {
+  margin-right: 10px;
+}
+.Start-seats {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* testimonial section  */
+.testimonial {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.testimonial h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.testimonial .row img {
+  height: 100px;
+  width: 80px;
+  margin-top: 20px;
+}
+.testimonial .row p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 20px;
 }

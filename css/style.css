@@ -10,7 +10,10 @@ body {
 .hero-section {
   background: #f0fff0;
 }
-.row {
+/* .row {
+  padding: 15px;
+} */
+.hero-section .container .row {
   padding: 15px;
 }
 
@@ -75,6 +78,50 @@ nav ul li a {
 }
 
 /* heror-section-contern end */
+
+/* feature-section start */
+.feature-section {
+}
+.feature-section .container {
+}
+.feature-section .container .row {
+}
+.feature-section .container .row .col-md-3 {
+}
+.active-custom-componet {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.feature-section .container .row .col-md-3 .component {
+  background: #cfe6fb;
+  border-radius: 10px;
+}
+
+.shadow-custom-com {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.feature-section .container .row .col-md-3 .component img {
+  width: 65px;
+  height: 80px;
+}
+.feature-section .container .row .col-md-3 .component h3 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 36px;
+  color: #413960;
+  margin-top: 20px;
+}
+.feature-section .container .row .col-md-3 .component p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+  margin: 0px;
+}
+
+/* feature-section end */
 
 /* media query  */
 @media screen and (min-width: 991px) {

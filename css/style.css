@@ -194,6 +194,22 @@ nav ul li a {
 }
 /* courses-section end  */
 
+/* Testimonial section start  */
+.Testimonial {
+}
+.Testimonial .row {
+}
+.Testimonial .row h2 {
+}
+.Testimonial .row .row {
+}
+.Testimonial .row .row img {
+}
+.Testimonial .row .row p {
+}
+
+/* Testimonial section end  */
+
 /* media query  */
 @media screen and (min-width: 991px) {
   body {
